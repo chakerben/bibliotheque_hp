@@ -19,7 +19,7 @@ export const booksIsLoading = (state = false, action) => {
             return state;
     }
 }
-
+    
 export const books = (state = [], action) => {
     switch (action.type) {
         case 'BOOKS_FETCH_DATA_SUCCESS':
